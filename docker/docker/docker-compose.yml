@@ -1,0 +1,17 @@
+services:
+  backend:
+    build: ./backend
+    env_file: .env
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "${FRONTEND_PORT:-3000}:3000"
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: http://backend:8000
+      BACKEND_BASE_URL: http://backend:8000
+      DEV_JWT_TOKEN: ${DEV_JWT_TOKEN:-dev-token}
+    depends_on:
+      - backend

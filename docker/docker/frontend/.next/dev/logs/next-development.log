@@ -1,0 +1,6 @@
+[00:00:00.467] Server  ERROR   (node:38032) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/samsince04/ECGR-4189/labs/lab5-frontend/next.config.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/samsince04/ECGR-4189/labs/lab5-frontend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[00:00:00.697] Server  LOG     ✓ Ready in 487ms
+[00:00:01.372] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
