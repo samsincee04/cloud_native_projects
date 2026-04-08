@@ -1,7 +1,20 @@
+# Node / Next.js
 node_modules/
-__pycache__/
+.next/
+out/
+
+# Env files
 .env
-.DS_Store
+.env.local
+
+# Python
+__pycache__/
 *.pyc
-build/
-dist/
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
