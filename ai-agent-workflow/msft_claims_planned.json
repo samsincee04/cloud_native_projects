@@ -1,0 +1,181 @@
+{
+  "task": "summary",
+  "filing_id": "msft_10k_2025",
+  "items": [
+    {
+      "item_id": "summary_claim_01",
+      "item_text": "Microsoft is a technology company.",
+      "tenk_evidence": [
+        {
+          "id": "msft_10k_2025::238",
+          "text": "the performance of our business and to make informed decisions regarding the allocation of \nresources. We disclose metrics to enable investors to evaluate progress against our ambitions, provide transparency into \nperformance trends, and reflect the continued evolution of our products and services. Our commercial and other business \nmetrics are fundamentally connected based on how customers use our products and services. The metrics are disclosed in \nthe MD&A or the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). Financial metrics are calculated based \non financial results prepared in accordance with accounting principles generally accepted in the United States of America \n(“GAAP”), and growth comparisons relate to the corresponding period of last fiscal year.\nIn the fi",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::225",
+          "text": "sults of operations and financial condition of Microsoft Corporation. MD&A is \nprovided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the \naccompanying Notes to Financial Statements (Part II, Item 8 of this Form 10-K). This section generally discusses the \nresults of our operations for the year ended June 30, 2025 compared to the year ended June 30, 2024. For a discussion of \nthe year ended June 30, 2024 compared to the year ended June 30, 2023, please refer to Part II, Item 7, “Management’s \nDiscussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year \nended June 30, 2024 and our Form 8-K filed on December 3, 2024.\nOVERVIEW\nMicrosoft is a technology company committed to maki",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::237",
+          "text": "ting \ndecision maker is regularly provided and reviews for purposes of allocating resources and assessing performance reflects \nthese segment changes. Prior period segment information has been recast to conform to the way we internally manage \nand monitor our business during fiscal year 2025.\nAdditional information on our reportable segments is contained in Note 18 – Segment Information and Geographic Data of \nthe Notes to Financial Statements (Part II, Item 8 of this Form 10-K). \n4/5/26, 5:28 PM 10-K\nhttps://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm 51/137\nPART II\nItem 7\n \nMetrics\nWe use metrics in assessing the performance of our business and to make informed decisions regarding the allocation of \nresources. We disclose metrics to enable investors to eva",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::235",
+          "text": "nal, and local economic developments and changes in global trade policies such as restrictions on \ninternational trade, including tariffs and other controls on imports or exports, could result in increased supply chain \nchallenges, cost volatility, and consumer and economic uncertainty which may adversely affect our results of operations.\nRefer to Risk Factors (Part I, Item 1A of this Form 10-K) for a discussion of these factors and other risks.\nSeasonality\nOur revenue fluctuates quarterly and is generally higher in the fourth quarter of our fiscal year. Fourth quarter revenue is \ndriven by a higher volume of multi-year contracts executed during the period. \nReportable Segments\nWe report our financial performance based on the following segments: Productivity and Business Processes, Intelli",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::88",
+          "text": "information for investors. Our goal is to maintain the Investor Relations website as a \nportal through which investors can easily find or navigate to pertinent information about us, including:\n• Our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and any \namendments to those reports, as soon as reasonably practicable after we electronically file that material with or \nfurnish it to the Securities and Exchange Commission (“SEC”) at www.sec.gov.\n• Information on our business strategies, financial results, and metrics for investors.\n• Announcements of investor conferences, speeches, and events at which our executives talk about our product, \nservice, and competitive strategies. Archives of these events are also available.\n• Press releases on quarterly",
+          "source": "10-K_micro.pdf"
+        }
+      ],
+      "queries": [
+        "Microsoft technology innovations 2024",
+        "Microsoft technology market share 2025"
+      ]
+    },
+    {
+      "item_id": "summary_claim_02",
+      "item_text": "Microsoft reports financial performance using three segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.",
+      "tenk_evidence": [
+        {
+          "id": "msft_10k_2025::238",
+          "text": "the performance of our business and to make informed decisions regarding the allocation of \nresources. We disclose metrics to enable investors to evaluate progress against our ambitions, provide transparency into \nperformance trends, and reflect the continued evolution of our products and services. Our commercial and other business \nmetrics are fundamentally connected based on how customers use our products and services. The metrics are disclosed in \nthe MD&A or the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). Financial metrics are calculated based \non financial results prepared in accordance with accounting principles generally accepted in the United States of America \n(“GAAP”), and growth comparisons relate to the corresponding period of last fiscal year.\nIn the fi",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::225",
+          "text": "sults of operations and financial condition of Microsoft Corporation. MD&A is \nprovided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the \naccompanying Notes to Financial Statements (Part II, Item 8 of this Form 10-K). This section generally discusses the \nresults of our operations for the year ended June 30, 2025 compared to the year ended June 30, 2024. For a discussion of \nthe year ended June 30, 2024 compared to the year ended June 30, 2023, please refer to Part II, Item 7, “Management’s \nDiscussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year \nended June 30, 2024 and our Form 8-K filed on December 3, 2024.\nOVERVIEW\nMicrosoft is a technology company committed to maki",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::237",
+          "text": "ting \ndecision maker is regularly provided and reviews for purposes of allocating resources and assessing performance reflects \nthese segment changes. Prior period segment information has been recast to conform to the way we internally manage \nand monitor our business during fiscal year 2025.\nAdditional information on our reportable segments is contained in Note 18 – Segment Information and Geographic Data of \nthe Notes to Financial Statements (Part II, Item 8 of this Form 10-K). \n4/5/26, 5:28 PM 10-K\nhttps://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm 51/137\nPART II\nItem 7\n \nMetrics\nWe use metrics in assessing the performance of our business and to make informed decisions regarding the allocation of \nresources. We disclose metrics to enable investors to eva",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::235",
+          "text": "nal, and local economic developments and changes in global trade policies such as restrictions on \ninternational trade, including tariffs and other controls on imports or exports, could result in increased supply chain \nchallenges, cost volatility, and consumer and economic uncertainty which may adversely affect our results of operations.\nRefer to Risk Factors (Part I, Item 1A of this Form 10-K) for a discussion of these factors and other risks.\nSeasonality\nOur revenue fluctuates quarterly and is generally higher in the fourth quarter of our fiscal year. Fourth quarter revenue is \ndriven by a higher volume of multi-year contracts executed during the period. \nReportable Segments\nWe report our financial performance based on the following segments: Productivity and Business Processes, Intelli",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::88",
+          "text": "information for investors. Our goal is to maintain the Investor Relations website as a \nportal through which investors can easily find or navigate to pertinent information about us, including:\n• Our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and any \namendments to those reports, as soon as reasonably practicable after we electronically file that material with or \nfurnish it to the Securities and Exchange Commission (“SEC”) at www.sec.gov.\n• Information on our business strategies, financial results, and metrics for investors.\n• Announcements of investor conferences, speeches, and events at which our executives talk about our product, \nservice, and competitive strategies. Archives of these events are also available.\n• Press releases on quarterly",
+          "source": "10-K_micro.pdf"
+        }
+      ],
+      "queries": [
+        "Microsoft reports financial performance using three segments",
+        "Microsoft productivity and business processes segment details"
+      ]
+    },
+    {
+      "item_id": "summary_claim_03",
+      "item_text": "In August 2024, Microsoft announced changes to the composition of its segments to align with how it manages its business.",
+      "tenk_evidence": [
+        {
+          "id": "msft_10k_2025::238",
+          "text": "the performance of our business and to make informed decisions regarding the allocation of \nresources. We disclose metrics to enable investors to evaluate progress against our ambitions, provide transparency into \nperformance trends, and reflect the continued evolution of our products and services. Our commercial and other business \nmetrics are fundamentally connected based on how customers use our products and services. The metrics are disclosed in \nthe MD&A or the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). Financial metrics are calculated based \non financial results prepared in accordance with accounting principles generally accepted in the United States of America \n(“GAAP”), and growth comparisons relate to the corresponding period of last fiscal year.\nIn the fi",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::225",
+          "text": "sults of operations and financial condition of Microsoft Corporation. MD&A is \nprovided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the \naccompanying Notes to Financial Statements (Part II, Item 8 of this Form 10-K). This section generally discusses the \nresults of our operations for the year ended June 30, 2025 compared to the year ended June 30, 2024. For a discussion of \nthe year ended June 30, 2024 compared to the year ended June 30, 2023, please refer to Part II, Item 7, “Management’s \nDiscussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year \nended June 30, 2024 and our Form 8-K filed on December 3, 2024.\nOVERVIEW\nMicrosoft is a technology company committed to maki",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::237",
+          "text": "ting \ndecision maker is regularly provided and reviews for purposes of allocating resources and assessing performance reflects \nthese segment changes. Prior period segment information has been recast to conform to the way we internally manage \nand monitor our business during fiscal year 2025.\nAdditional information on our reportable segments is contained in Note 18 – Segment Information and Geographic Data of \nthe Notes to Financial Statements (Part II, Item 8 of this Form 10-K). \n4/5/26, 5:28 PM 10-K\nhttps://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm 51/137\nPART II\nItem 7\n \nMetrics\nWe use metrics in assessing the performance of our business and to make informed decisions regarding the allocation of \nresources. We disclose metrics to enable investors to eva",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::235",
+          "text": "nal, and local economic developments and changes in global trade policies such as restrictions on \ninternational trade, including tariffs and other controls on imports or exports, could result in increased supply chain \nchallenges, cost volatility, and consumer and economic uncertainty which may adversely affect our results of operations.\nRefer to Risk Factors (Part I, Item 1A of this Form 10-K) for a discussion of these factors and other risks.\nSeasonality\nOur revenue fluctuates quarterly and is generally higher in the fourth quarter of our fiscal year. Fourth quarter revenue is \ndriven by a higher volume of multi-year contracts executed during the period. \nReportable Segments\nWe report our financial performance based on the following segments: Productivity and Business Processes, Intelli",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::88",
+          "text": "information for investors. Our goal is to maintain the Investor Relations website as a \nportal through which investors can easily find or navigate to pertinent information about us, including:\n• Our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and any \namendments to those reports, as soon as reasonably practicable after we electronically file that material with or \nfurnish it to the Securities and Exchange Commission (“SEC”) at www.sec.gov.\n• Information on our business strategies, financial results, and metrics for investors.\n• Announcements of investor conferences, speeches, and events at which our executives talk about our product, \nservice, and competitive strategies. Archives of these events are also available.\n• Press releases on quarterly",
+          "source": "10-K_micro.pdf"
+        }
+      ],
+      "queries": [
+        "Microsoft announced changes to segment composition in August 2024",
+        "Microsoft align its segments with business management"
+      ]
+    },
+    {
+      "item_id": "summary_claim_04",
+      "item_text": "Microsoft's revenue fluctuates quarterly and is generally higher in the fourth quarter of its fiscal year.",
+      "tenk_evidence": [
+        {
+          "id": "msft_10k_2025::238",
+          "text": "the performance of our business and to make informed decisions regarding the allocation of \nresources. We disclose metrics to enable investors to evaluate progress against our ambitions, provide transparency into \nperformance trends, and reflect the continued evolution of our products and services. Our commercial and other business \nmetrics are fundamentally connected based on how customers use our products and services. The metrics are disclosed in \nthe MD&A or the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). Financial metrics are calculated based \non financial results prepared in accordance with accounting principles generally accepted in the United States of America \n(“GAAP”), and growth comparisons relate to the corresponding period of last fiscal year.\nIn the fi",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::225",
+          "text": "sults of operations and financial condition of Microsoft Corporation. MD&A is \nprovided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the \naccompanying Notes to Financial Statements (Part II, Item 8 of this Form 10-K). This section generally discusses the \nresults of our operations for the year ended June 30, 2025 compared to the year ended June 30, 2024. For a discussion of \nthe year ended June 30, 2024 compared to the year ended June 30, 2023, please refer to Part II, Item 7, “Management’s \nDiscussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year \nended June 30, 2024 and our Form 8-K filed on December 3, 2024.\nOVERVIEW\nMicrosoft is a technology company committed to maki",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::237",
+          "text": "ting \ndecision maker is regularly provided and reviews for purposes of allocating resources and assessing performance reflects \nthese segment changes. Prior period segment information has been recast to conform to the way we internally manage \nand monitor our business during fiscal year 2025.\nAdditional information on our reportable segments is contained in Note 18 – Segment Information and Geographic Data of \nthe Notes to Financial Statements (Part II, Item 8 of this Form 10-K). \n4/5/26, 5:28 PM 10-K\nhttps://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm 51/137\nPART II\nItem 7\n \nMetrics\nWe use metrics in assessing the performance of our business and to make informed decisions regarding the allocation of \nresources. We disclose metrics to enable investors to eva",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::235",
+          "text": "nal, and local economic developments and changes in global trade policies such as restrictions on \ninternational trade, including tariffs and other controls on imports or exports, could result in increased supply chain \nchallenges, cost volatility, and consumer and economic uncertainty which may adversely affect our results of operations.\nRefer to Risk Factors (Part I, Item 1A of this Form 10-K) for a discussion of these factors and other risks.\nSeasonality\nOur revenue fluctuates quarterly and is generally higher in the fourth quarter of our fiscal year. Fourth quarter revenue is \ndriven by a higher volume of multi-year contracts executed during the period. \nReportable Segments\nWe report our financial performance based on the following segments: Productivity and Business Processes, Intelli",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::88",
+          "text": "information for investors. Our goal is to maintain the Investor Relations website as a \nportal through which investors can easily find or navigate to pertinent information about us, including:\n• Our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and any \namendments to those reports, as soon as reasonably practicable after we electronically file that material with or \nfurnish it to the Securities and Exchange Commission (“SEC”) at www.sec.gov.\n• Information on our business strategies, financial results, and metrics for investors.\n• Announcements of investor conferences, speeches, and events at which our executives talk about our product, \nservice, and competitive strategies. Archives of these events are also available.\n• Press releases on quarterly",
+          "source": "10-K_micro.pdf"
+        }
+      ],
+      "queries": [
+        "Microsoft revenue fluctuates quarterly and is generally higher in the fourth quarter",
+        "Microsoft quarterly revenue is generally higher, especially in the fourth quarter"
+      ]
+    },
+    {
+      "item_id": "summary_claim_05",
+      "item_text": "Microsoft uses metrics to assess business performance and inform resource allocation decisions.",
+      "tenk_evidence": [
+        {
+          "id": "msft_10k_2025::238",
+          "text": "the performance of our business and to make informed decisions regarding the allocation of \nresources. We disclose metrics to enable investors to evaluate progress against our ambitions, provide transparency into \nperformance trends, and reflect the continued evolution of our products and services. Our commercial and other business \nmetrics are fundamentally connected based on how customers use our products and services. The metrics are disclosed in \nthe MD&A or the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). Financial metrics are calculated based \non financial results prepared in accordance with accounting principles generally accepted in the United States of America \n(“GAAP”), and growth comparisons relate to the corresponding period of last fiscal year.\nIn the fi",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::225",
+          "text": "sults of operations and financial condition of Microsoft Corporation. MD&A is \nprovided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the \naccompanying Notes to Financial Statements (Part II, Item 8 of this Form 10-K). This section generally discusses the \nresults of our operations for the year ended June 30, 2025 compared to the year ended June 30, 2024. For a discussion of \nthe year ended June 30, 2024 compared to the year ended June 30, 2023, please refer to Part II, Item 7, “Management’s \nDiscussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year \nended June 30, 2024 and our Form 8-K filed on December 3, 2024.\nOVERVIEW\nMicrosoft is a technology company committed to maki",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::237",
+          "text": "ting \ndecision maker is regularly provided and reviews for purposes of allocating resources and assessing performance reflects \nthese segment changes. Prior period segment information has been recast to conform to the way we internally manage \nand monitor our business during fiscal year 2025.\nAdditional information on our reportable segments is contained in Note 18 – Segment Information and Geographic Data of \nthe Notes to Financial Statements (Part II, Item 8 of this Form 10-K). \n4/5/26, 5:28 PM 10-K\nhttps://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm 51/137\nPART II\nItem 7\n \nMetrics\nWe use metrics in assessing the performance of our business and to make informed decisions regarding the allocation of \nresources. We disclose metrics to enable investors to eva",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::235",
+          "text": "nal, and local economic developments and changes in global trade policies such as restrictions on \ninternational trade, including tariffs and other controls on imports or exports, could result in increased supply chain \nchallenges, cost volatility, and consumer and economic uncertainty which may adversely affect our results of operations.\nRefer to Risk Factors (Part I, Item 1A of this Form 10-K) for a discussion of these factors and other risks.\nSeasonality\nOur revenue fluctuates quarterly and is generally higher in the fourth quarter of our fiscal year. Fourth quarter revenue is \ndriven by a higher volume of multi-year contracts executed during the period. \nReportable Segments\nWe report our financial performance based on the following segments: Productivity and Business Processes, Intelli",
+          "source": "10-K_micro.pdf"
+        },
+        {
+          "id": "msft_10k_2025::88",
+          "text": "information for investors. Our goal is to maintain the Investor Relations website as a \nportal through which investors can easily find or navigate to pertinent information about us, including:\n• Our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and any \namendments to those reports, as soon as reasonably practicable after we electronically file that material with or \nfurnish it to the Securities and Exchange Commission (“SEC”) at www.sec.gov.\n• Information on our business strategies, financial results, and metrics for investors.\n• Announcements of investor conferences, speeches, and events at which our executives talk about our product, \nservice, and competitive strategies. Archives of these events are also available.\n• Press releases on quarterly",
+          "source": "10-K_micro.pdf"
+        }
+      ],
+      "queries": [
+        "Microsoft uses metrics to assess performance",
+        "Microsoft uses metrics to inform resource allocation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lab9-agents"
+version = "0.1.0"
+description = "RAG pipeline for SEC 10-K analysis (Lab 9: explicit filing selection and JSON output)"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=0.5.0",
+    "sentence-transformers>=2.6.0",
+    "pypdf>=5.0.0",
+    "python-dotenv>=1.0.0",
+    "sec-api",
+    "tavily-python>=0.5.0",
+]
+
+[tool.setuptools]
+packages = ["ai_pipeline", "agent"]
