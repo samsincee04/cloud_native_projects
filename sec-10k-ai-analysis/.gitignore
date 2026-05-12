@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Generated RAG/vector data
+ai_pipeline/vector_store/
+
+# Local data / raw filings
+data/raw/*.pdf
+data/processed/
+
+# Databases / local files
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/

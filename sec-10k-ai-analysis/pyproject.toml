@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lab8-ai"
+version = "0.1.0"
+description = "AI techniques: prompt engineering, in-context learning, and RAG for 10-K analysis"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=0.5.0",
+    "sentence-transformers>=2.6.0",
+    "pypdf>=5.0.0",
+    "python-dotenv>=1.0.0",
+    "sec-api",
+]
+
+[tool.setuptools]
+packages = ["ai_pipeline"]
