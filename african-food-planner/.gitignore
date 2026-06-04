@@ -1,0 +1,25 @@
+# env / secrets
+.env
+.env.*
+*.pem
+*.p12
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.venv*/
+
+# node / next
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# mac
+.DS_Store
+
+# logs
+*.log

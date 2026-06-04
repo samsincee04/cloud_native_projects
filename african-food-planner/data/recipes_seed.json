@@ -1,0 +1,426 @@
+{
+  "recipes": [
+    {
+      "name": "Jollof Rice (Nigerian)",
+      "servings_base": 6,
+      "tags": ["nigerian", "rice", "main", "party"],
+      "ingredients": [
+        {"name": "rice", "qty": 3, "unit": "cups", "optional": false, "category": "grain"},
+        {"name": "tomato", "qty": 6, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "onion", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "groundnut oil", "qty": 0.5, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "chicken", "qty": 1, "unit": "kg", "optional": false, "category": "protein"},
+        {"name": "stock", "qty": 3, "unit": "cups", "optional": false, "category": "liquid"},
+        {"name": "thyme", "qty": 1, "unit": "tsp", "optional": false, "category": "spice"},
+        {"name": "curry powder", "qty": 1, "unit": "tsp", "optional": true, "category": "spice"},
+        {"name": "bay leaf", "qty": 2, "unit": "whole", "optional": true, "category": "spice"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Jollof Rice (Ghanaian)",
+      "servings_base": 6,
+      "tags": ["ghanaian", "rice", "main"],
+      "ingredients": [
+        {"name": "rice", "qty": 3, "unit": "cups", "optional": false, "category": "grain"},
+        {"name": "tomato", "qty": 5, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "onion", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "ginger", "qty": 1, "unit": "inch", "optional": false, "category": "spice"},
+        {"name": "vegetable oil", "qty": 0.5, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "beef", "qty": 0.5, "unit": "kg", "optional": true, "category": "protein"},
+        {"name": "stock", "qty": 3, "unit": "cups", "optional": false, "category": "liquid"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Fried Rice",
+      "servings_base": 4,
+      "tags": ["nigerian", "rice", "main"],
+      "ingredients": [
+        {"name": "rice", "qty": 2, "unit": "cups", "optional": false, "category": "grain"},
+        {"name": "vegetable oil", "qty": 4, "unit": "tbsp", "optional": false, "category": "oil"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "carrot", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "green beans", "qty": 1, "unit": "cup", "optional": false, "category": "vegetable"},
+        {"name": "liver", "qty": 200, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "chicken", "qty": 300, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "scotch bonnet", "qty": 1, "unit": "whole", "optional": true, "category": "spice"},
+        {"name": "seasoning cube", "qty": 2, "unit": "whole", "optional": false, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Pounded Yam and Egusi Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "yam", "soup", "main"],
+      "ingredients": [
+        {"name": "yam", "qty": 1.5, "unit": "kg", "optional": false, "category": "tubers"},
+        {"name": "egusi", "qty": 2, "unit": "cups", "optional": false, "category": "seed"},
+        {"name": "palm oil", "qty": 0.5, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "onion", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "tomato", "qty": 3, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "beef", "qty": 0.5, "unit": "kg", "optional": false, "category": "protein"},
+        {"name": "stockfish", "qty": 100, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 3, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "spinach", "qty": 2, "unit": "cups", "optional": false, "category": "vegetable"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Pepper Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "soup", "spicy"],
+      "ingredients": [
+        {"name": "goat meat", "qty": 1, "unit": "kg", "optional": false, "category": "protein"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "ginger", "qty": 2, "unit": "inch", "optional": false, "category": "spice"},
+        {"name": "garlic", "qty": 4, "unit": "cloves", "optional": false, "category": "spice"},
+        {"name": "scotch bonnet", "qty": 3, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "pepper soup spice", "qty": 2, "unit": "tbsp", "optional": false, "category": "spice"},
+        {"name": "scent leaf", "qty": 0.5, "unit": "cup", "optional": true, "category": "herb"},
+        {"name": "seasoning cube", "qty": 2, "unit": "whole", "optional": false, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Starch and Owo Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "delta", "soup", "main"],
+      "ingredients": [
+        {"name": "starch", "qty": 500, "unit": "g", "optional": false, "category": "grain"},
+        {"name": "palm oil", "qty": 1, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "tomato", "qty": 4, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "onion", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "dried fish", "qty": 150, "unit": "g", "optional": false, "category": "protein"},
+        {"name": "beef", "qty": 300, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 4, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "locust beans", "qty": 2, "unit": "tbsp", "optional": true, "category": "seasoning"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Suya",
+      "servings_base": 4,
+      "tags": ["nigerian", "street food", "grill", "snack"],
+      "ingredients": [
+        {"name": "beef", "qty": 1, "unit": "kg", "optional": false, "category": "protein"},
+        {"name": "suya spice", "qty": 4, "unit": "tbsp", "optional": false, "category": "spice"},
+        {"name": "groundnut oil", "qty": 2, "unit": "tbsp", "optional": false, "category": "oil"},
+        {"name": "onion", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "tomato", "qty": 2, "unit": "medium", "optional": true, "category": "vegetable"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Yam Porridge",
+      "servings_base": 4,
+      "tags": ["nigerian", "yam", "main", "one-pot"],
+      "ingredients": [
+        {"name": "yam", "qty": 1, "unit": "kg", "optional": false, "category": "tubers"},
+        {"name": "palm oil", "qty": 0.25, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "tomato", "qty": 3, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "smoked fish", "qty": 150, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "spinach", "qty": 1, "unit": "cup", "optional": true, "category": "vegetable"},
+        {"name": "crayfish", "qty": 2, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "seasoning cube", "qty": 2, "unit": "whole", "optional": false, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Indomie",
+      "servings_base": 2,
+      "tags": ["nigerian", "noodles", "quick", "snack"],
+      "ingredients": [
+        {"name": "indomie noodles", "qty": 2, "unit": "packs", "optional": false, "category": "grain"},
+        {"name": "egg", "qty": 2, "unit": "whole", "optional": true, "category": "protein"},
+        {"name": "onion", "qty": 0.5, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "tomato", "qty": 1, "unit": "medium", "optional": true, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 1, "unit": "whole", "optional": true, "category": "spice"},
+        {"name": "vegetable oil", "qty": 1, "unit": "tbsp", "optional": false, "category": "oil"}
+      ]
+    },
+    {
+      "name": "Plantain and Beans",
+      "servings_base": 4,
+      "tags": ["nigerian", "beans", "main", "comfort"],
+      "ingredients": [
+        {"name": "beans", "qty": 2, "unit": "cups", "optional": false, "category": "legume"},
+        {"name": "plantain", "qty": 3, "unit": "ripe", "optional": false, "category": "fruit"},
+        {"name": "palm oil", "qty": 0.25, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "tomato", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 1, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "dried fish", "qty": 100, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 2, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Starch and Banga Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "delta", "soup", "main"],
+      "ingredients": [
+        {"name": "starch", "qty": 500, "unit": "g", "optional": false, "category": "grain"},
+        {"name": "banga paste", "qty": 400, "unit": "g", "optional": false, "category": "paste"},
+        {"name": "beef", "qty": 400, "unit": "g", "optional": false, "category": "protein"},
+        {"name": "dried fish", "qty": 100, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 3, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scent leaf", "qty": 0.25, "unit": "cup", "optional": true, "category": "herb"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Eba and Ogbono Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "swallow", "soup", "main"],
+      "ingredients": [
+        {"name": "garri", "qty": 3, "unit": "cups", "optional": false, "category": "grain"},
+        {"name": "ogbono", "qty": 1, "unit": "cup", "optional": false, "category": "seed"},
+        {"name": "palm oil", "qty": 0.5, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "beef", "qty": 400, "unit": "g", "optional": false, "category": "protein"},
+        {"name": "stockfish", "qty": 80, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 3, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 1, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "spinach", "qty": 1, "unit": "cup", "optional": true, "category": "vegetable"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Groundnut Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "soup", "main"],
+      "ingredients": [
+        {"name": "groundnut paste", "qty": 1.5, "unit": "cups", "optional": false, "category": "paste"},
+        {"name": "beef", "qty": 500, "unit": "g", "optional": false, "category": "protein"},
+        {"name": "tomato", "qty": 3, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "onion", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "spinach", "qty": 2, "unit": "cups", "optional": true, "category": "vegetable"},
+        {"name": "stockfish", "qty": 80, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 2, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Moi Moi",
+      "servings_base": 6,
+      "tags": ["nigerian", "beans", "side", "steamed"],
+      "ingredients": [
+        {"name": "black-eyed peas", "qty": 2, "unit": "cups", "optional": false, "category": "legume"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "groundnut oil", "qty": 4, "unit": "tbsp", "optional": false, "category": "oil"},
+        {"name": "egg", "qty": 3, "unit": "whole", "optional": true, "category": "protein"},
+        {"name": "smoked fish", "qty": 100, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "seasoning cube", "qty": 2, "unit": "whole", "optional": false, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Egg Sauce",
+      "servings_base": 3,
+      "tags": ["nigerian", "egg", "quick", "side"],
+      "ingredients": [
+        {"name": "egg", "qty": 6, "unit": "whole", "optional": false, "category": "protein"},
+        {"name": "tomato", "qty": 4, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 1, "unit": "whole", "optional": true, "category": "spice"},
+        {"name": "vegetable oil", "qty": 3, "unit": "tbsp", "optional": false, "category": "oil"},
+        {"name": "salt", "qty": 0.5, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Akara",
+      "servings_base": 4,
+      "tags": ["nigerian", "beans", "breakfast", "fried"],
+      "ingredients": [
+        {"name": "black-eyed peas", "qty": 2, "unit": "cups", "optional": false, "category": "legume"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 1, "unit": "whole", "optional": true, "category": "spice"},
+        {"name": "groundnut oil", "qty": 2, "unit": "cups", "optional": false, "category": "oil"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Efo Riro",
+      "servings_base": 4,
+      "tags": ["nigerian", "vegetable", "main", "yoruba"],
+      "ingredients": [
+        {"name": "spinach", "qty": 4, "unit": "cups", "optional": false, "category": "vegetable"},
+        {"name": "palm oil", "qty": 0.5, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "tomato", "qty": 4, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "onion", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "beef", "qty": 400, "unit": "g", "optional": false, "category": "protein"},
+        {"name": "stockfish", "qty": 80, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 3, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "locust beans", "qty": 1, "unit": "tbsp", "optional": true, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Ogbono Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "soup", "main"],
+      "ingredients": [
+        {"name": "ogbono", "qty": 1, "unit": "cup", "optional": false, "category": "seed"},
+        {"name": "palm oil", "qty": 0.5, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "beef", "qty": 500, "unit": "g", "optional": false, "category": "protein"},
+        {"name": "stockfish", "qty": 100, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 3, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "spinach", "qty": 2, "unit": "cups", "optional": true, "category": "vegetable"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Semo and Banga Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "swallow", "soup", "main"],
+      "ingredients": [
+        {"name": "semolina", "qty": 2, "unit": "cups", "optional": false, "category": "grain"},
+        {"name": "banga paste", "qty": 400, "unit": "g", "optional": false, "category": "paste"},
+        {"name": "beef", "qty": 400, "unit": "g", "optional": false, "category": "protein"},
+        {"name": "smoked fish", "qty": 120, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 3, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "scent leaf", "qty": 0.25, "unit": "cup", "optional": true, "category": "herb"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Pounded Yam and Banga Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "yam", "soup", "main"],
+      "ingredients": [
+        {"name": "yam", "qty": 1.5, "unit": "kg", "optional": false, "category": "tubers"},
+        {"name": "banga paste", "qty": 400, "unit": "g", "optional": false, "category": "paste"},
+        {"name": "beef", "qty": 400, "unit": "g", "optional": false, "category": "protein"},
+        {"name": "dried fish", "qty": 100, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 3, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Kilishi",
+      "servings_base": 6,
+      "tags": ["nigerian", "northern", "dried meat", "snack"],
+      "ingredients": [
+        {"name": "beef", "qty": 1, "unit": "kg", "optional": false, "category": "protein"},
+        {"name": "groundnut paste", "qty": 0.5, "unit": "cup", "optional": false, "category": "paste"},
+        {"name": "ginger", "qty": 2, "unit": "tbsp", "optional": false, "category": "spice"},
+        {"name": "garlic", "qty": 4, "unit": "cloves", "optional": false, "category": "spice"},
+        {"name": "clove", "qty": 1, "unit": "tsp", "optional": true, "category": "spice"},
+        {"name": "onion powder", "qty": 1, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Dan Bu Nama",
+      "servings_base": 6,
+      "tags": ["nigerian", "northern", "dried meat", "snack"],
+      "ingredients": [
+        {"name": "beef", "qty": 1, "unit": "kg", "optional": false, "category": "protein"},
+        {"name": "ginger", "qty": 2, "unit": "tbsp", "optional": false, "category": "spice"},
+        {"name": "garlic", "qty": 4, "unit": "cloves", "optional": false, "category": "spice"},
+        {"name": "onion", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": true, "category": "spice"},
+        {"name": "seasoning cube", "qty": 2, "unit": "whole", "optional": false, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Ofada Rice and Ayamase",
+      "servings_base": 4,
+      "tags": ["nigerian", "rice", "main", "yoruba"],
+      "ingredients": [
+        {"name": "ofada rice", "qty": 2, "unit": "cups", "optional": false, "category": "grain"},
+        {"name": "green bell pepper", "qty": 6, "unit": "whole", "optional": false, "category": "vegetable"},
+        {"name": "onion", "qty": 3, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "palm oil", "qty": 1, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "locust beans", "qty": 2, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "beef", "qty": 300, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "dried fish", "qty": 80, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 2, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Egusi Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "soup", "main"],
+      "ingredients": [
+        {"name": "egusi", "qty": 2, "unit": "cups", "optional": false, "category": "seed"},
+        {"name": "palm oil", "qty": 0.5, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "tomato", "qty": 3, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "onion", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "beef", "qty": 500, "unit": "g", "optional": false, "category": "protein"},
+        {"name": "stockfish", "qty": 80, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 3, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "spinach", "qty": 2, "unit": "cups", "optional": true, "category": "vegetable"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Banga Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "delta", "soup"],
+      "ingredients": [
+        {"name": "banga paste", "qty": 500, "unit": "g", "optional": false, "category": "paste"},
+        {"name": "beef", "qty": 400, "unit": "g", "optional": false, "category": "protein"},
+        {"name": "smoked fish", "qty": 150, "unit": "g", "optional": false, "category": "protein"},
+        {"name": "crayfish", "qty": 4, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "scent leaf", "qty": 0.5, "unit": "cup", "optional": true, "category": "herb"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Beans Porridge",
+      "servings_base": 4,
+      "tags": ["nigerian", "beans", "main"],
+      "ingredients": [
+        {"name": "beans", "qty": 2, "unit": "cups", "optional": false, "category": "legume"},
+        {"name": "palm oil", "qty": 0.25, "unit": "cup", "optional": false, "category": "oil"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "tomato", "qty": 2, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "scotch bonnet", "qty": 2, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "plantain", "qty": 1, "unit": "ripe", "optional": true, "category": "fruit"},
+        {"name": "dried fish", "qty": 100, "unit": "g", "optional": true, "category": "protein"},
+        {"name": "crayfish", "qty": 2, "unit": "tbsp", "optional": false, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    },
+    {
+      "name": "Chicken Pepper Soup",
+      "servings_base": 4,
+      "tags": ["nigerian", "soup", "chicken", "comfort"],
+      "ingredients": [
+        {"name": "chicken", "qty": 1, "unit": "kg", "optional": false, "category": "protein"},
+        {"name": "onion", "qty": 1, "unit": "medium", "optional": false, "category": "vegetable"},
+        {"name": "ginger", "qty": 2, "unit": "inch", "optional": false, "category": "spice"},
+        {"name": "garlic", "qty": 3, "unit": "cloves", "optional": false, "category": "spice"},
+        {"name": "scotch bonnet", "qty": 3, "unit": "whole", "optional": false, "category": "spice"},
+        {"name": "pepper soup spice", "qty": 2, "unit": "tbsp", "optional": false, "category": "spice"},
+        {"name": "scent leaf", "qty": 0.5, "unit": "cup", "optional": true, "category": "herb"},
+        {"name": "seasoning cube", "qty": 2, "unit": "whole", "optional": false, "category": "seasoning"},
+        {"name": "salt", "qty": 1, "unit": "tsp", "optional": false, "category": "seasoning"}
+      ]
+    }
+  ]
+}

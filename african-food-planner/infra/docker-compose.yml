@@ -1,0 +1,57 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: africa
+      POSTGRES_PASSWORD: africa
+      POSTGRES_DB: africa_food
+    expose:
+      - "5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U africa -d africa_food"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ../backend
+    environment:
+      DATABASE_URL: postgresql+psycopg://africa:africa@db:5432/africa_food
+      RECIPES_SEED_PATH: /data/recipes_seed.json
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    volumes:
+      - ../backend:/app
+      - ../data:/data:ro
+
+  frontend:
+    build: ../frontend
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    volumes:
+      - ../frontend:/app
+
+  worker:
+    build:
+      context: ..
+      dockerfile: worker/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://africa:africa@db:5432/africa_food
+    depends_on:
+      db:
+        condition: service_healthy
+    command: python worker/run_jobs.py
+    volumes:
+      - ../worker:/app/worker
+      - ../backend:/app/backend:ro
+
+volumes:
+  db_data:
