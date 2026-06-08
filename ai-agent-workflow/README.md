@@ -1,29 +1,37 @@
-# AI Agent Workflow
+# AI Agent Workflow System
 
-A cloud-native AI agent project that uses a multi-step workflow to plan, gather information, extract key details, judge outputs, and validate results.
+A modular, production-grade **Retrieval-Augmented Generation (RAG) and Fact-Checking Pipeline** designed to audit unstructured financial text. The system ingests raw corporate compliance documents (such as SEC 10-K filings), atomizes them into distinct claims, plans and executes budget-aware live web research, and programmatically evaluates verdicts while completely eliminating LLM hallucination vectors.
+
+Rather than relying on a single loose, non-deterministic prompt, this architecture implements a **5-stage agentic workflow** using isolated file-to-file command-line interfaces (CLIs). Every state transition is rigorously sandboxed and validated against rigid schemas, ensuring enterprise-grade predictability and runtime stability.
+
+---
 
 ## Overview
 
-This project explores an agent-style workflow where separate modules handle different parts of an AI task. The system uses environment-based configuration for API keys and model settings, while keeping secrets outside version control.
+This project explores a production-grade, modular agentic lifecycle where specialized backend utilities decouple a heavy analytical workload into highly targeted, serializable steps. By separating data preparation from multi-step verification, the system maintains strict token tracking, deterministic data paths, and resilient fault guardrails. Configuration is entirely managed via local environment files, keeping sensitive provider orchestration keys decoupled from remote source control.
 
-## Features
+---
 
-- Multi-step agent workflow
-- Planning module
-- Information gathering module
-- Extraction module
-- Judging/evaluation module
-- Validation module
-- Environment-based API configuration
-- Optional RAG/vector-store support through the included AI pipeline files
+## Features & Defensive Design
+
+* **Strict Namespace Isolation:** Uses metadata-filtering (`where={"filing_id": ...}`) during vector database retrieval. Multiple distinct corporate filings safely coexist in the same collection without context cross-contamination.
+* **Algorithmic Token Filtering:** Employs localized regex-driven tokenization and financial stop-word stripping to convert messy prose into clean, high-signal search engine keywords.
+* **Deterministic Array & Naming Bounds:** Guarantees that the generated item count exactly matches user-specified arguments, enforcing a stable, predictable alphanumeric serialization schema (`summary_claim_01`, `risks_item_01`).
+* **Resource and Cost Accounting Throttling:** Implements hard API budgets for web queries. If limits are reached, the system pauses calls gracefully and tags state records with clear status metrics (`partial_budget_exhausted | budget_exhausted`) instead of throwing an unhandled exception.
+* **Zero-Hallucination Citation Safeguards:** Cross-references model-generated hyperlinks against a compiled in-memory whitelist of successfully scraped source URLs. Any unverified or hallucinated link is programmatically purged, and the item's verdict is automatically flipped to `insufficient_evidence`.
+
+---
 
 ## Tech Stack
 
-- Python
-- OpenRouter / OpenAI-compatible API
-- Tavily API, if web search is used
-- python-dotenv
-- ChromaDB / local vector store, if using the AI pipeline portion
+* **Core Language:** Python 3.11+ (Leverages native standard library structures like `urllib.request` to optimize runtime velocity and maintain a zero-dependency footprint where applicable)
+* **Vector Store:** ChromaDB (Persistent local client instance)
+* **Embeddings & Vectorization:** Local `sentence-transformers` utilizing the `all-MiniLM-L6-v2` topology (Zero cloud dependencies for internal vectorization)
+* **LLM Orchestration:** OpenRouter API (Configured to execute at `temperature: 0` to completely mitigate stochastic completion variances)
+* **Web Scraping Engine:** Tavily Client SDK (Finance-focused extraction mode)
+
+---
+
 ## Architecture Overview
 
 The system is decoupled into two primary framework directories:
@@ -38,7 +46,7 @@ The system is decoupled into two primary framework directories:
       ┌────────────────────┐
       │   ai_pipeline/     │  <-- Local Vector Indexing & Context Retrieval
       └─────────┬──────────┘
-                │  (Emits Formatted Lab 8 JSON Output)
+                │  (Emits Formatted Data Contract JSON)
                 ▼
       ┌────────────────────┐
       │  1. agent.extract  │  <-- Stage 4.1: Atomizes text into unique data items
@@ -62,10 +70,11 @@ The system is decoupled into two primary framework directories:
                 ▼
       ┌────────────────────┐
       │   5. agent.judge   │  <-- Stage 4.4: Local Evaluator (Whitelist URL Enforcement)
+      └────────────────────┘
+```
 
 ## Project Structure
 
-```text
 ai-agent-workflow/
 ├── agent/
 │   ├── plan.py
