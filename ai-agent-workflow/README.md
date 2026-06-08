@@ -71,21 +71,22 @@ The system is decoupled into two primary framework directories:
       ┌────────────────────┐
       │   5. agent.judge   │  <-- Stage 4.4: Local Evaluator (Whitelist URL Enforcement)
       └────────────────────┘
-```
-
-## Project Structure
 
 ai-agent-workflow/
 ├── agent/
-│   ├── plan.py
-│   ├── gather.py
-│   ├── extract.py
-│   ├── judge.py
-│   └── validate.py
+│   ├── extract.py      # Stage 4.1: Claims atomization and context slicing
+│   ├── validate.py     # POSIX-compliant linting barrier and rubric sequence checker
+│   ├── plan.py         # Stage 4.2: Corporate identity inference and search query planner
+│   ├── gather.py       # Stage 4.3: Budget-aware web search and HTML scraper module
+│   └── judge.py        # Stage 4.4: Automated validator node & citation verifier
 ├── ai_pipeline/
-├── data/
-├── agents.md
-├── pyproject.toml
-├── README.md
-├── .env.example
-└── .gitignore
+│   ├── prompts/
+│   │   ├── risks.md    # Few-shot prompt template for financial risk registers
+│   │   └── summary.md  # Few-shot prompt template for company financial highlights
+│   ├── ingest.py       # Extracts PDF text and commits chunk embeddings to vector index
+│   └── query.py        # Executes isolated namespace RAG queries to emit data contracts
+├── data/               # Local repository for raw source artifacts and testing documents
+├── .env.example        # Environment variable layout template
+├── .gitignore          # Rules for preventing secrets from hitting remote source control
+├── pyproject.toml      # Project dependency and structural environment settings
+└── README.md           # System documentation
